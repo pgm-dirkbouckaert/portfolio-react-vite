@@ -1,0 +1,202 @@
+:root {
+  --color-body-bg: hsl(43, 50%, 99%);
+  --color-teal: hsl(180, 100%, 25%);
+  --color-teal-dark: hsl(180, 100%, 15%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 13%);
+  --color-gray-dark: hsl(0, 0%, 33%);
+  --color-gray: hsl(0, 0%, 50%);
+  --color-gray-light: hsl(0, 0%, 90%);
+  --color-gold: hsl(43, 15%, 55%);
+  --color-gold-light: hsl(43, 25%, 75%);
+  --color-error: hsl(0, 100%, 30%);
+  --color-error-bg: hsl(351, 100%, 90%);
+  --color-success: hsl(153, 28%, 28%);
+  --color-success-bg: hsl(153, 31%, 86%);
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v30-latin-300.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-300.woff') format('woff');
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-500.woff') format('woff');
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-700.woff') format('woff');
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: var(--color-body-bg);
+  color: var(--color-white);
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--color-teal);
+  background: var(--color-white);
+}
+
+::selection {
+  color: var(--color-teal);
+  background: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+strong {
+  font-style: normal;
+  font-weight: 600;
+}
+
+a {
+  transition: all 0.4s;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+/* Sections */
+.page {
+  padding: 1rem;
+  padding-top: 6rem;
+  background-color: var(--color-teal);
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chevron-link {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 3rem;
+  transition: all 0.4s;
+  margin-top: auto;
+  margin-bottom: 2rem;
+}
+
+.chevron-link-up:hover {
+  opacity: 0.9;
+  top: -0.25rem;
+}
+
+.chevron-link--down:hover {
+  opacity: 0.9;
+  top: 0.25rem;
+}
+
+/* UTILITIES 
+****************************************/
+.container {
+  width: calc(100% - 2rem);
+  max-width: 27rem;
+  margin: 1rem auto;
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-muted {
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+/* MODAL 
+*****************/
+.customModal {
+  border-radius: 0.5rem;
+  top: 10%;
+}
+
+.modal-content {
+  color: var(--color-black);
+  width: calc(100% - 2rem);
+}

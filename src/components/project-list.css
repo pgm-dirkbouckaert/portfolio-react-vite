@@ -1,0 +1,15 @@
+.page.projects h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.page.projects .project-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}

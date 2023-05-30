@@ -1,0 +1,47 @@
+/* Profile */
+.who-am-i .profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.who-am-i .profile img {
+  width: 15rem;
+}
+
+.who-am-i h1 {
+  font-size: 2rem;
+}
+
+/* Social */
+.social {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  color: var(--color-white);
+}
+
+.social a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social a:hover,
+.social a:focus {
+  transform: rotate(-15deg);
+}
+
+/* Info */
+.who-am-i .info {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.who-am-i .info span {
+  display: block;
+  margin-bottom: 1rem;
+}
