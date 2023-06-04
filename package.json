@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react-vite",
-  "main": "src/app.jsx",
+  "main": "src/main.jsx",
   "private": true,
   "version": "0.0.0",
   "type": "module",
