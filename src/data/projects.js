@@ -91,7 +91,7 @@ export const projects = [
   {
     id: 4,
     image: 'nt2digiboek.png',
-    url: 'projects/nt2digiboek-sample/',
+    url: null,
     nl: {
       linkText: 'Bekijk het project',
       category: 'HTML/CSS/JS',
@@ -105,8 +105,6 @@ export const projects = [
       title: 'Digiboek',
       summary: 'Online handboeken',
       details: `Digiboek voor de leerkrachten van CVO GENT. 
-      | Voor dit portfolio kan je een extract bekijken met één handboek.
-      | Het origineel biedt alle handboeken aan.
       | HTML, CSS, Bootstrap, Javascript, JQuery, canvas`,
     },
     en: {
@@ -122,15 +120,13 @@ export const projects = [
       title: 'Digibook',
       summary: "Online teachers' books",
       details: `Digital books for the teachers of CVO GENT.
-       | For this portfolio you can view an extract with one handbook.
-       | The original digibook offers all handbooks for the teachers.
        | HTML, CSS, Bootstrap, Javascript, JQuery, canvas`,
     },
   },
   {
     id: 5,
     image: 'mimosa.png',
-    url: 'https://dirkb.be/mimosa',
+    url: null,
     nl: {
       linkText: 'Bekijk het project',
       category: 'PHP & SQL',
@@ -206,7 +202,7 @@ export const projects = [
   {
     id: 7,
     image: 'bestellingen-voeding.png',
-    url: 'https://cvogent.be/bestellingen-voeding',
+    url: null,
     nl: {
       linkText: 'Bekijk het project',
       category: 'PHP & SQL',
@@ -518,7 +514,7 @@ export const projects = [
   {
     id: 15,
     image: 'canvas.png',
-    url: 'https://canvas.dirkb.cyou/',
+    url: null,
     nl: {
       linkText: 'Bekijk het project',
       category: 'Cloud Installaties',
@@ -545,7 +541,7 @@ export const projects = [
   {
     id: 16,
     image: 'justdoit.png',
-    url: 'https://gcp.dirkb.cyou:3000/',
+    url: null,
     nl: {
       linkText: 'Bekijk het project',
       category: 'Cloud Installaties',

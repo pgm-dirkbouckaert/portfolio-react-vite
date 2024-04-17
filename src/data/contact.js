@@ -47,4 +47,8 @@ export const contactFormMessages = {
     en: 'Sorry, something went wrong. Try again.',
     nl: 'Sorry, er ging iets fout. Probeer opnieuw.',
   },
+  simulation: {
+    en: 'This is a simulation. Your message will not be sent.',
+    nl: 'Dit is een simulatie. Jouw bericht wordt niet verzonden.',
+  },
 };

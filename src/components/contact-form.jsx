@@ -39,6 +39,7 @@ const Contact = () => {
   return (
     <section id="contact" className="page contact">
       <h1>Contact</h1>
+      <p>{contactFormMessages.simulation[language]}</p>
       <form className="container" onSubmit={handleSubmit}>
         {contactFormInputs.map((input, index) => (
           <ContactFormElement
