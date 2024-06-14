@@ -1,2 +1,3 @@
 # portfolio-react-vite
-See this React version of my portfolio online at [Vercel](https://portfolio-react-vite-eight.vercel.app/).
+Learning React by building a portfolio.  
+Check out my Vanilla Javascript portfolio [here](https://pgm-dirkbouckaert.github.io/portfolio/src/index.html).
